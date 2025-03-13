@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Neue Sätze</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Neue Übung hinzufügen</h2>
+  <form id="adminForm">
+    <textarea id="newSentence" placeholder="Neuer Satz ohne Kommas"></textarea>
+    <button type="submit">Speichern</button>
+  </form>
+</div>
+
+<script>
+    document.getElementById('adminForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert("Satz wurde gespeichert!");
+    });
+</script>
+
+</body>
+</html>

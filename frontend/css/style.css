@@ -168,17 +168,38 @@ ul li:hover {
 }
 
 h2.spacer {
-    margin-top: 45px;
-    margin-bottom: 15px;
+    margin-top: 60px;
+    margin-bottom: 10px;
 }
 
 h1.spacer {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-decoration: underline;
 }
 
 body.largeText {
     font-size: 1.2rem;
     line-height: 1.5
+}
+
+p.example {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+body.wide-page .container {
+    width: 95%;        /* Volle Breite */
+    max-width: 1000px;  /* Etwas breiter als Standard */
+}
+
+/* Unused Tags h3-6 included for Scalability Purposes */
+
+body.largeText h1,
+body.largeText h2,
+body.largeText h3,
+body.largeText h4,
+body.largeText h5,
+body.largeText h6 {
+    color: #4CAF50; /* Beispiel: Grün */
 }

@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const schwer = [
         { id: 3, name: "Kommas in Nebensätzen" },
         { id: 4, name: "Komplexe Satzstrukturen" },
-        { id: 5, name: "Lange Aufgabe mit mehreren Kommas" } // Neue große Aufgabe
+        { id: 5, name: "Lange Aufgabe mit mehreren Kommas" },
+        { id: 6, name: "Lange Aufgabe mit mehreren Kommas 2" }// Neue große Aufgabe
     ];
 
     function erstelleButtons(liste, containerId) {

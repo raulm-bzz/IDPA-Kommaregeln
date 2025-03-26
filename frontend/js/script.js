@@ -7,6 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
         5: {
             name: "Lange Aufgabe mit mehreren Kommas",
             text: "Als ich gestern nach Hause kam, sah ich, dass die Tür offen stand, das Licht brannte, und niemand zu Hause war, also rief ich sofort die Polizei an."
+        },
+        6: {
+            name: "Lange Aufgabe mit mehreren Kommas 2",
+            text: "Als ichich gestern nach Hause kam, sah ich, dass die Tür offen stand, das Licht brannte, und niemand zu Hause war, also rief ich sofort die Polizei an."
         }
     };
 

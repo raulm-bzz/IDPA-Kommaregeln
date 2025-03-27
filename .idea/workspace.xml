@@ -4,11 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c08b847-61c7-46c8-9b08-7ff5d44e0308" name="Changes" comment="" />
+    <list default="true" id="1c08b847-61c7-46c8-9b08-7ff5d44e0308" name="Changes" comment="savepoint 1.0 (unfinished DB)">
+      <change afterPath="$PROJECT_DIR$/backend/controllers/exerciseController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/exerciseRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/schemas/exercise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/schemas/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <favorite-branches>
@@ -52,6 +71,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\meili\WebstormProjects\IDPA-Kommaregeln\backend\config" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +86,11 @@
       <updated>1742904576011</updated>
       <workItem from="1742904577292" duration="403000" />
       <workItem from="1742904998834" duration="222000" />
-      <workItem from="1742905342470" duration="121000" />
+      <workItem from="1742905342470" duration="2254000" />
+      <workItem from="1742907635805" duration="3277000" />
+      <workItem from="1742985106224" duration="1661000" />
+      <workItem from="1743063157628" duration="106000" />
+      <workItem from="1743063276974" duration="331000" />
     </task>
     <servers />
   </component>
@@ -91,5 +119,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="savepoint 1.0 (unfinished DB)" />
+    <option name="LAST_COMMIT_MESSAGE" value="savepoint 1.0 (unfinished DB)" />
   </component>
 </project>

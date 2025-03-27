@@ -18,7 +18,26 @@
 
   <h3>🔴 Schwere Übungen</h3>
   <div id="schwer-list"></div>
+
+  <h3>Grosse Übungsaufgaben</h3>
+  <div id="training-list"></div>
+
+  <details>
+    <summary>Weitere Aufgaben</summary>
+    <div id="weitere-list"></div>
+  </details>
+
+
 </div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('h3').forEach(h3 => {
+            h3.classList.add('spacer');
+        });
+    });
+</script>
 
 </body>
 </html>

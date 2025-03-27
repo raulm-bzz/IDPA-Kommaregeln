@@ -1,14 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const leicht = [
+    const einfuehrung = [
         { id: 1, name: "Kommas bei Aufzählungen" },
-        { id: 2, name: "Kommas vor Konjunktionen" }
-    ];
-
-    const schwer = [
+        { id: 2, name: "Kommas vor Konjunktionen" },
         { id: 3, name: "Kommas in Nebensätzen" },
         { id: 4, name: "Komplexe Satzstrukturen" },
         { id: 5, name: "Lange Aufgabe mit mehreren Kommas" },
     ];
+
 
     const training = [
         { id: 6, name: "Text1" },
@@ -35,8 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    erstelleButtons(leicht, "leicht-list");
-    erstelleButtons(schwer, "schwer-list");
+    erstelleButtons(einfuehrung, "einfuehrung-list");
     erstelleButtons(training, "training-list");
     erstelleButtons(weitere, "weitere-list");
 });

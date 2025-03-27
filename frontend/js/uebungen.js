@@ -7,7 +7,19 @@ document.addEventListener("DOMContentLoaded", function() {
     const schwer = [
         { id: 3, name: "Kommas in Nebensätzen" },
         { id: 4, name: "Komplexe Satzstrukturen" },
-        { id: 5, name: "Lange Aufgabe mit mehreren Kommas" } // Neue große Aufgabe
+        { id: 5, name: "Lange Aufgabe mit mehreren Kommas" },
+    ];
+
+    const training = [
+        { id: 6, name: "Text1" },
+        { id: 7, name: "Text2" },
+        { id: 8, name: "Text3" },
+    ];
+
+    const weitere = [
+        { id: 9, name: "Text4" },
+        { id: 10, name: "Text5" },
+        { id: 11, name: "Text6" },
     ];
 
     function erstelleButtons(liste, containerId) {
@@ -25,4 +37,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     erstelleButtons(leicht, "leicht-list");
     erstelleButtons(schwer, "schwer-list");
+    erstelleButtons(training, "training-list");
+    erstelleButtons(weitere, "weitere-list");
 });

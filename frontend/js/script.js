@@ -7,7 +7,12 @@ document.addEventListener("DOMContentLoaded", function () {
         5: {
             name: "Lange Aufgabe mit mehreren Kommas",
             text: "Als ich gestern nach Hause kam, sah ich, dass die Tür offen stand, das Licht brannte, und niemand zu Hause war, also rief ich sofort die Polizei an."
-        }
+        },
+        6: { name: "Text1", text: "IT-Fachmann von Beruf, hatte er seine Freundin in der gemeinsamen Wohnung mit Mikrofonen, Kameras und Temperatursensoren überwacht, immer in der Angst, sie würde ihm untreu werden. Schliesslich schloss er, schon halb im Wahn, aus einem im Schlafzimmer von Sensoren protokollierten Temperaturanstieg, seine Partnerin habe ihn mit einem anderen Mann im Doppelbett betrogen. Denn für mittags um zwölf zeigten seine Daten eine um vier Grad höhere Temperatur als üblich – an einem Tag, an dem er auf Dienstreise war. Das schien ihm Beweis genug für einen Seitensprung. \n" +
+                "Aber irgendwie schaffte er es, seine Waffe doch nicht auf sich selbst zu richten. Er suchte vielmehr nach Hilfe und klopfte an die Tür der Praxis von Johannes Hepp, Psychoanalytiker und Buchautor in München. «Das war die erste digitale Neurose, die ich behandelte», sagt Hepp im Gespräch. Und fügt an: «Jedes Jahr werden es mehr.» " },
+        7: { name: "Text2", text: "Digitale Neurosen? Was soll an Neurosen, wörtlich «Nervenkrankheit», seit Sigmund Freud als seelische Störung bekannt, neu sein? Und was erst digital? \n" +
+                "«Sicher, die Neurosen an sich sind nicht neu», sagt Hepp, «ihre Auslöser allerdings oft schon – und die digitalen Mechanismen, welche die Störungen befeuern, ebenfalls.» Der Fall des Sportschützen sei nur ein Beispiel dafür, wie Netztechnologie und Digitallifestyle ein neurotisches Verhalten entstehen lassen, um es schliesslich in eine destruktive Obsession zu verwandeln. \n" +
+                "Hepp fasst den Begriff der Neurose sehr weit, das räumt er ein. In seiner Praxis kämpfe er als Therapeut gegen Abhängigkeiten, Süchte, Kontrollzwänge, Ängste, verzerrte Körperbilder oder sexuelle Frustrationen. Dabei blickt er in die Abgründe von uns Online-Existenzen. «Gegenwartsneurosen» nennt Hepp diese Störungen auch, letztlich alle eine «Überkompensation» der psychischen Belastung durch die Digitalwirtschaft. "},
     };
 
     const params = new URLSearchParams(window.location.search);

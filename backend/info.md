@@ -1,0 +1,27 @@
+## **Routes for exercises and users**
+### **User routes**
+*register a user*  
+URL: http://localhost:5000/api/users/register  
+Method: POST  
+Body: { "username": "", "text": "" }  
+
+*find a user with username in params*  
+URL: http://localhost:5000/api/users/:username  
+Method: GET  
+Body: {}  
+
+*get all users*  
+URL: http://localhost:5000/api/users  
+Method: GET  
+Body: {}
+
+### **Exercise routes**
+*add a exercise*  
+URL: http://localhost:5000/api/exercises/add  
+Method: POST  
+Body: { "_id": 1, "text": "" }
+
+*get all users*  
+URL: http://localhost:5000/api/exercises  
+Method: GET  
+Body: {}

@@ -1,11 +1,13 @@
-const express = require('express');
-const router = express.Router();
-const { registerUser, getUser } = require('../controllers/userController');
+const express = require('express')
+const router = express.Router()
+const { registerUser, findUser, getAllUsers} = require('../controllers/userController')
 
 // Route to register a new user
-router.post('/register', registerUser);
+router.post('/register', registerUser)
 
 // Route to get user by username
-router.get('/:username', getUser);
+router.get('/:username', findUser)
 
-module.exports = router;
+router.get('/', getAllUsers)
+
+module.exports = router

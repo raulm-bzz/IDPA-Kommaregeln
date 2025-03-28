@@ -1,9 +1,14 @@
 const mongoose = require('mongoose');
+const {mongo} = require("mongoose");
+
 
 //MongoDB connection
 const connectDB = async () => {
     try {
-        await mongoose.connect('mongodb://localhost:27017/kommaregeln', {
+        // URL leading to the MongoDB Database
+        mongodb_url = 'mongodb://localhost:27017/kommaregeln';
+
+        await mongoose.connect(mongodb_url, {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });

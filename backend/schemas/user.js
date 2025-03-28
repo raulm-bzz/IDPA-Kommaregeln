@@ -12,7 +12,7 @@ const userSchema = new mongoose.Schema({
         required: true
     },
     completedExercises: {
-        type: [String],  // Array of exercies ID
+        type: [String],  // Array of exercise IDs
         default: []
     }
 });

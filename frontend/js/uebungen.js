@@ -18,6 +18,21 @@ document.addEventListener("DOMContentLoaded", function() {
         { id: 9, name: "Text4" },
         { id: 10, name: "Text5" },
         { id: 11, name: "Text6" },
+        { id: 12, name: "Text7" },
+        { id: 13, name: "Text8" },
+        { id: 14, name: "Text9" },
+        { id: 15, name: "Text10" },
+    ];
+
+    const training2 = [
+        { id: 16, name: "GrosserText1" },
+        { id: 17, name: "GrosserText2" },
+    ];
+
+    const weitere2 = [
+        { id: 18, name: "GrosserText3" },
+        { id: 19, name: "GrosserText4" },
+        { id: 20, name: "GrosserText5" },
     ];
 
     function erstelleButtons(liste, containerId) {
@@ -36,4 +51,6 @@ document.addEventListener("DOMContentLoaded", function() {
     erstelleButtons(einfuehrung, "einfuehrung-list");
     erstelleButtons(training, "training-list");
     erstelleButtons(weitere, "weitere-list");
+    erstelleButtons(training2, "training-list2");
+    erstelleButtons(weitere2, "weitere-list2");
 });

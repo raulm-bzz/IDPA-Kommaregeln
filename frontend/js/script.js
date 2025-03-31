@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let correctText = "";
     let attempts = 1; // Startwert ist 1
+    const maxAttempts = 3 // Maximale Überprüfungen
 
     if (taskId && aufgaben[taskId]) {
         document.getElementById("task-title").textContent = aufgaben[taskId].name;
@@ -70,9 +71,14 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!checkSentence()) {
             attempts++; // Zählt nur falsche Versuche
         }
+        else if (checkSentence()) {
 
-        if (attempts >= 3) {
-            solutionButton.style.display = "block";
+        }
+
+        if (attempts > maxAttempts) {
+            checkButton.disabled = true; // Deaktiviert den Überprüfen-Button
+            checkButton.style.opacity = "0.5"; // Macht ihn visuell grau
+            feedback.textContent = "⚠️ Du kannst nicht mehr überprüfen! ⚠️"
         }
     });
 
@@ -84,12 +90,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     submitButton.addEventListener("click", function () {
-        if (!confirm("Bist du sicher, dass du abgeben möchtest?")) {
-            return; // Falls "Abbrechen" geklickt wird, passiert nichts
-        }
+        //if (!confirm("Bist du sicher, dass du abgeben möchtest?")) {
+        //    return; // Falls "Abbrechen" geklickt wird, passiert nichts
+        //}
 
         const isCorrect = checkSentence();
 
+        textArea.disabled = true
+
+        solutionButton.style.display = "block"
+        submitButton.disabled = true;
+        submitButton.style.opacity = "0.5";
+        checkButton.disabled = true;
+        checkButton.style.opacity = "0.5";
         if (!isCorrect) {
             feedback.innerHTML = "❌ <b>Die Aufgabe wurde nicht richtig gelöst.</b>";
             feedback.style.color = "red";
@@ -97,13 +110,6 @@ document.addEventListener("DOMContentLoaded", function () {
             return; // Abgabe wird blockiert, wenn es noch falsch ist
         }
 
-        if (attempts === 1) {
-            localStorage.setItem("finalResult", "perfect");
-        } else if (attempts <= 3) {
-            localStorage.setItem("finalResult", "good");
-        } else {
-            localStorage.setItem("finalResult", "fail");
-        }
 
         localStorage.setItem("attempts", attempts);
         localStorage.setItem("taskId", taskId);

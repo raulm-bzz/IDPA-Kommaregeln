@@ -32,8 +32,23 @@ const getAllUsers = async (req, res) => {
         const users = await User.find({})
         res.json(users)
     } catch (error) {
-        res.status(500).json({ error: "Failed to get all users" })
+        res.status(500).json({ error: "Failed to execute getAllUsers" })
     }
 }
 
-module.exports = { registerUser, findUser, getAllUsers }
+const addUserEx = async (req, res) => {
+    // Body:
+    // {userID: int, exerciseID: int, checks: int, solved: bool}
+
+    try {
+        const completedExercise = req.body
+
+
+        res.status(201).json({ message: "Done" })
+    }
+    catch (error) {
+        res.status(500).json({ error: "Failed execute addUserEx" })
+    }
+}
+
+module.exports = { registerUser, findUser, getAllUsers, addUserEx }

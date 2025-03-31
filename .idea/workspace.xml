@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c08b847-61c7-46c8-9b08-7ff5d44e0308" name="Changes" comment="savepoint 1.0 (unfinished DB)">
-      <change afterPath="$PROJECT_DIR$/backend/info.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="1c08b847-61c7-46c8-9b08-7ff5d44e0308" name="Changes" comment="DB working locally">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/database.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/exerciseController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/exerciseController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/exerciseRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/exerciseRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/userRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/schemas/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/schemas/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/js/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +54,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/raulm-bzz/IDPA-Kommaregeln.git&quot;,
     &quot;accountId&quot;: &quot;1075a071-e080-4753-8c61-bbbf5a9a4bfe&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;raulm-bzz&quot;,
+    &quot;repository&quot;: &quot;IDPA-Kommaregeln&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -82,6 +83,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.register.html.executor": "Run",
     "Node.js.server.js.executor": "Run",
     "Node.js.user.js.executor": "Run",
@@ -105,12 +107,16 @@
       <recent name="C:\Users\meili\WebstormProjects\IDPA-Kommaregeln\backend\config" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/IDPA-Kommaregeln/frontend/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/backend/server.js" working-dir="$PROJECT_DIR$/backend">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.server.js" />
       </list>
     </recent_temporary>
@@ -142,7 +148,8 @@
       <workItem from="1743064673624" duration="8000" />
       <workItem from="1743065018249" duration="2801000" />
       <workItem from="1743148612832" duration="51000" />
-      <workItem from="1743148693653" duration="4864000" />
+      <workItem from="1743148693653" duration="5260000" />
+      <workItem from="1743407071143" duration="4403000" />
     </task>
     <task id="LOCAL-00001" summary="savepoint 1.0 (unfinished DB)">
       <created>1743063811316</created>
@@ -151,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743063811316</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DB working locally">
+      <option name="closed" value="true" />
+      <created>1743154605576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743154605576</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +198,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="savepoint 1.0 (unfinished DB)" />
-    <option name="LAST_COMMIT_MESSAGE" value="savepoint 1.0 (unfinished DB)" />
+    <MESSAGE value="DB working locally" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB working locally" />
   </component>
 </project>

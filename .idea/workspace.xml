@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c08b847-61c7-46c8-9b08-7ff5d44e0308" name="Changes" comment="Alle Kurzen Übungen hinzugefügt&#10;ToDo:&#10;5 lange Aufgaben Hinzufügen">
+    <list default="true" id="1c08b847-61c7-46c8-9b08-7ff5d44e0308" name="Changes" comment="savepoint 1.0 (unfinished DB)&#10;&#10;Weitere Aufgaben hinzugefügt.&#10;Todo: 3 Grosse Aufgaben hinzufügen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/script.js" afterDir="false" />
     </list>
@@ -20,6 +20,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <favorite-branches>
@@ -78,7 +81,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Nic",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -173,6 +176,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="savepoint 1.0 (unfinished DB)" />
     <MESSAGE value="Alle Kurzen Übungen hinzugefügt&#10;ToDo:&#10;5 lange Aufgaben Hinzufügen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alle Kurzen Übungen hinzugefügt&#10;ToDo:&#10;5 lange Aufgaben Hinzufügen" />
+    <MESSAGE value="savepoint 1.0 (unfinished DB)&#10;&#10;Weitere Aufgaben hinzugefügt.&#10;Todo: 3 Grosse Aufgaben hinzufügen" />
+    <option name="LAST_COMMIT_MESSAGE" value="savepoint 1.0 (unfinished DB)&#10;&#10;Weitere Aufgaben hinzugefügt.&#10;Todo: 3 Grosse Aufgaben hinzufügen" />
   </component>
 </project>

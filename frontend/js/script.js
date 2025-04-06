@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const checkButton = document.getElementById("check");
     const submitButton = document.getElementById("submit");
     const feedback = document.getElementById("feedback");
+    const saveButton = document.getElementById("save");
 
     const solutionButton = document.createElement("button");
     solutionButton.textContent = "Lösung anzeigen";
@@ -27,17 +28,66 @@ document.addEventListener("DOMContentLoaded", function () {
     solutionButton.style.border = "none";
     solutionButton.style.cursor = "pointer";
 
+    const continueButton = document.createElement("button");
+    continueButton.textContent = "Weiter";
+    continueButton.style.display = "none";
+    continueButton.style.marginTop = "10px";
+    continueButton.style.padding = "10px";
+    continueButton.style.background = "black";
+    continueButton.style.color = "white";
+    continueButton.style.border = "none";
+    continueButton.style.cursor = "pointer";
+
     document.querySelector(".container").appendChild(solutionButton);
+    document.querySelector(".container").appendChild(continueButton);
 
     let correctText = "";
     let attempts = 1; // Startwert ist 1
     const maxAttempts = 3 // Maximale Überprüfungen
 
+    // Text aussuchen
     if (taskId && aufgaben[taskId]) {
         document.getElementById("task-title").textContent = aufgaben[taskId].name;
         correctText = aufgaben[taskId].text;
         textArea.value = correctText.replace(/,/g, ""); // Entfernt Kommas für die Übung
     }
+
+    // Verhindert Eingabe aller Zeichen ausser kommas (+Navigation)
+    textArea.addEventListener("keydown", function (event) {
+        const allowedKeys = ["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"];
+
+        if (allowedKeys.includes(event.key)) return;
+
+        // Wenn nicht komma oder löschen dann preventen
+        if (event.key !== "," && event.key !== "Backspace" && event.key !== "Delete") {
+            event.preventDefault();
+        }
+
+        // Löschen nur erlauben, wenn ein komma gelöscht wird
+        if ((event.key === "Backspace") && textArea.value[textArea.selectionStart - 1] !== ",") {
+            event.preventDefault();
+        }
+    });
+
+
+
+    // returns number of commas still missing,
+    function checkText() {
+        const userInput = textArea.value
+        const totalCommas = correctText.split("").filter(c => c === ",").length
+        const userCommas = userInput.split("").filter(c => c === ",").length;
+        console.log(userCommas);
+    }
+
+
+
+
+
+
+
+
+
+
 
     function checkSentence() {
         const userInput = textArea.value.trim();
@@ -68,6 +118,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     checkButton.addEventListener("click", function () {
+        checkText()
+
         if (!checkSentence()) {
             attempts++; // Zählt nur falsche Versuche
         }
@@ -89,22 +141,36 @@ document.addEventListener("DOMContentLoaded", function () {
         solutionButton.style.display = "none";
     });
 
+    continueButton.addEventListener("click", function () {
+        // Save the exercise
+        window.location.href = "index.html";
+    });
+
+    saveButton.addEventListener("click", function () {
+        // Save the exercise
+        window.location.href = "index.html";
+    });
+
     submitButton.addEventListener("click", function () {
         //if (!confirm("Bist du sicher, dass du abgeben möchtest?")) {
         //    return; // Falls "Abbrechen" geklickt wird, passiert nichts
         //}
 
-        const isCorrect = checkSentence();
+        checkText()
+        const isCorrect = checkSentence()
 
         textArea.disabled = true
 
+        continueButton.style.display = "block";
         solutionButton.style.display = "block"
         submitButton.disabled = true;
         submitButton.style.opacity = "0.5";
         checkButton.disabled = true;
         checkButton.style.opacity = "0.5";
+        saveButton.disabled = true;
+        saveButton.style.opacity = "0.5";
+
         if (!isCorrect) {
-            feedback.innerHTML = "❌ <b>Die Aufgabe wurde nicht richtig gelöst.</b>";
             feedback.style.color = "red";
             textArea.style.border = "2px solid red";
             return; // Abgabe wird blockiert, wenn es noch falsch ist

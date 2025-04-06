@@ -6,7 +6,7 @@ const {mongo} = require("mongoose");
 const connectDB = async () => {
     try {
         // URL leading to the MongoDB Database
-        mongodb_url = 'mongodb://localhost:27017/kommaregeln';
+        mongodb_url = "mongodb+srv://kommaregelnidpa:idpanlr@kommaregelndb.vo178sh.mongodb.net/KommaregelnDB?retryWrites=true&w=majority&appName=KommaregelnDB"
 
         await mongoose.connect(mongodb_url, {
             useNewUrlParser: true,

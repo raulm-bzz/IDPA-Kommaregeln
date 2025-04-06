@@ -10,6 +10,6 @@ router.get('/:username', findUser)
 
 router.get('/', getAllUsers)
 
-router.get('/', addUserEx)
+router.post('/adduserex', addUserEx)
 
 module.exports = router

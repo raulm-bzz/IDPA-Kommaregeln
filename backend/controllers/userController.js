@@ -8,7 +8,12 @@ const registerUser = async (req, res) => {
         await newUser.save()
         res.status(201).json({ message: "User registered successfully" })
     } catch (error) {
-        res.status(400).json({ error: "Failed to register user" })
+        if (error.code === 11000){
+            res.status(400).json({ error: "Failed to register user, username already exists" })
+        }
+        else{
+            res.status(422).json({ error: "Failed to register user" })
+        }
     }
 }
 
@@ -42,7 +47,6 @@ const addUserEx = async (req, res) => {
 
     try {
         const completedExercise = req.body
-
 
         res.status(201).json({ message: "Done" })
     }

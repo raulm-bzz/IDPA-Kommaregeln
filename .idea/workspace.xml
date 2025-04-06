@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c08b847-61c7-46c8-9b08-7ff5d44e0308" name="Changes" comment="trainer max attempts at 3. buttons and text area disable themselves after submission">
+    <list default="true" id="1c08b847-61c7-46c8-9b08-7ff5d44e0308" name="Changes" comment="Now using MongoDB Atlas as a Cloud Database instead of local db.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/database.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/userRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/trainer.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/trainer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/info.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/info.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +106,7 @@
       <recent name="C:\Users\meili\WebstormProjects\IDPA-Kommaregeln\backend\config" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.server.js">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/IDPA-Kommaregeln/frontend/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -119,8 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.server.js" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +150,7 @@
       <workItem from="1743148693653" duration="5260000" />
       <workItem from="1743407071143" duration="10638000" />
       <workItem from="1743582112842" duration="1616000" />
-      <workItem from="1743957492129" duration="2129000" />
+      <workItem from="1743957492129" duration="4025000" />
     </task>
     <task id="LOCAL-00001" summary="savepoint 1.0 (unfinished DB)">
       <created>1743063811316</created>
@@ -187,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743412357929</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Now using MongoDB Atlas as a Cloud Database instead of local db.">
+      <option name="closed" value="true" />
+      <created>1743960498430</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743960498430</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +226,7 @@
     <MESSAGE value="DB working locally" />
     <MESSAGE value="addUserEx function to add Exercises to a users completed Exercises list started. (not finished)" />
     <MESSAGE value="trainer max attempts at 3. buttons and text area disable themselves after submission" />
-    <option name="LAST_COMMIT_MESSAGE" value="trainer max attempts at 3. buttons and text area disable themselves after submission" />
+    <MESSAGE value="Now using MongoDB Atlas as a Cloud Database instead of local db." />
+    <option name="LAST_COMMIT_MESSAGE" value="Now using MongoDB Atlas as a Cloud Database instead of local db." />
   </component>
 </project>

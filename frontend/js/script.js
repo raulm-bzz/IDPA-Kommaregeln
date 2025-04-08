@@ -56,9 +56,57 @@ document.addEventListener("DOMContentLoaded", function () {
         17: {name: "Text10", text: "Aus gesundheitlichen Gründen hat sie mit dem Musikmachen aufhören müssen. Die kanadische Songschreiberin und Malerin Joni Mitchell (77) litt unter Hautausschlägen, die dermassen schmerzten, dass jedes Kleidungsstück auf ihrer Haut brannte. Ausserdem brauchte sie Jahre, um sich von einem Schlaganfall zu erholen. Als Kind hatte sie unter Polio gelitten, und es gab Zeiten, da konnte sie gar nicht stehen. Dazu entsprang aus ihrer ersten, früh gescheiterten Ehe eine Tochter, die Mitchell zur Adoption freigab – ein Entscheid, für den sie mit lebenslangen Schuldgefühlen bezahlte. Dazu kamen Depressionen, die sie immer wieder heimsuchten. Trotz diesen Hemmnissen entwickelte sich Mitchell zu einer lyrisch und musikalisch einmaligen Songschreibein. «Sie brachte die Frauen zum Singen und die Männer zum Zuhören», schreibt der Literaturprofessor David Yaffe in seiner neuen Biografie. Die Musikerin tat beides zu ihren Bedingungen, was in einem korrupten Geschäft wie dem Showbusiness schon Männern schwerfällt. Sie tat eben alles auf ihre Art. Für das Musikgeschäft hatte sie nur Verachtung übrig, anderen Musikern trat sie von Anfang an als Gleichwertige gegenüber, sie suchte die Auseinandersetzung mit den vielen Musikern, mit denen sie befreundet war und zugleich rivalisierte: David Crosby, Graham Nash, Leonard Cohen, Bob Dylan, Jackson Browne, Jaco Pastorius, Charles Mingus, Chick Corea und all den \n" +
                 "anderen. Und obgleich sie sich als Künstlerin bald etablierte, wollte sie mit dem Feminismus nichts zu tun haben. «Obwohl meine Probleme mit meinem Frau sein zu tun hatten, haben mir die Feministinnen nicht geholfen», sagt sie ungerührt; «ich habe mich immer mit denen gestritten.» Die Missverständnisse kommen nicht von ungefähr Dieses überraschende Bekenntnis fällt in einem der drei langen Gespräche, die Joni Mitchell mit der kanadischen Musikerin Malka Marom geführt hat, teil weise Jahrzehnte auseinander. Die Interviews, eben in deutscher Übersetzung erschienen, machen deutlich, dass die Künstlerin sich ebenso als Malerin wie als Musikerin versteht, dass sie eine gros se, eklektische Leserin ist; und dass sie ihre Texte als «beinahe offene Briefe» bezeichnet, so persönlich sind sie geraten. Von Musikern wie Frank Zappa, Miles Davis oder Charles Mingus, nicht für ihre Frauenfreundlichkeit bekannt, wurde Joni Mitchell für ihren eigenwilligen Einsatz von Akkorden, Rhythmen und Tonarten bewundert. Auch andere Musiker hörten aus ihrem Spiel eine eigenwillige Kombination von Jazz mit seinem modalen und chromatischen Spiel in Kombination mit der Folkmusik her aus, von der aus die strikte Autodidaktin in Kanada aufgebrochen war. Schmerzen und Selbstbefreiung künden, ohne je ins Sentimentale abzuschmieren. Damit hat die Songwriterin Tausenden von jungen Musikerinnen vorgemacht, dass man auch als Frau in der Männerwelt der Rockmusik brillieren kann mit hohen Ansprüchen. Und dass man sich durchsetzt, selbst wenn man die Musikindustrie ablehnt und der Presse misstraut.\n" +
                 "\n" },
-        18: {name: "Text9", text: "" },
-        19: {name: "Text10", text: "" },
-        20: {name: "Text9", text: "" },
+        18: {name: "Text9", text: "Wie geht es den Kindern und Jugendlichen in der Schweiz? Seit der Coronapandemie stellt sich uns als Gesellschaft diese Frage so häufig wie nie zuvor. Das kommt nicht von ungefähr. Allein ein Blick in den letzten Jahresbericht von Pro Juventute reicht, um zu belegen, dass es gute Gründe gibt, sich intensiv mit dem Thema zu befassen. Die psychische Belastung für die Kinder und Jugendlichen sowie ihre Familien habe bedauerlicherweise stark zugenommen, ist dort zu lesen. " +
+                "Bei der Beratungshotline von Pro Juventute sind 2022 die Anfragen zu «depressiver Stimmung» um 13 Prozent gegenüber dem Vorjahr gestiegen, zur Thematik «Angst» gar um 19 Prozent. Und ein Ende dieser Entwicklung ist aktuell nicht in Sicht. Im Gegenteil: Die psychiatrische Versorgung läuft am Limit. Auch in diesem Jahr ist weiterhin von zu wenig Therapieplätzen und langen Wartezeiten zu lesen. " +
+                "Bei der Kinder- und Jugendpsychiatrie im Kanton Zürich liege die Frist aktuell bei rund einem halben Jahr, sagt Matthias Obrist aus Erfahrung. Der Präsident der Stellenleitungskonferenz Schulpsychologische Dienste (SLKSPD) beobachtet schon seit einiger Zeit, dass das Versorgungssystem an seine Kapazitätsgrenzen gelangt. Beim Schulpsychologischen Dienst der Stadt Zürich gilt die Devise, dass 80 Prozent der Anfragen innerhalb von zwei Monaten behandelt werden sollen. " +
+                "Obrist und sein Team haben aber festgestellt, dass Schulen und Eltern unter grossem Druck stehen. Der schulpsychologische Dienst kann überbrücken, um jene Kinder und Jugendlichen aufzufangen, die auf eine Behandlung in der Kinder- und Jugendpsychiatrie warten müssen. Insbesondere die Schulen würden die langen Wartezeiten zu spüren bekommen, weiss Martina Buchli. Sie arbeitet für die Stiftung Berner Gesundheit im Kanton Bern. " +
+                "«Es ist für die Lehrerpersonen sehr herausfordernd, Schüler*innen zu unterrichten, die noch keinen Therapieplatz erhalten haben.» Eine solche Situation könne die Dynamik innerhalb einer ganzen Klasse negativ beeinflussen. Expert*innen sind sich einig: Die Zahl der Kinder und Jugendlichen mit psychischen Schwierigkeiten ist in den letzten Jahren weiter angestiegen. Auf die Frage nach den Gründen, fällt die Antwort komplexer aus. " +
+                "Die Vermutung, dass vor allem die Coronapandemie die Situation verschärft hat, reicht als Begründung nicht aus. «Wir beobachten diese Entwicklung schon seit einigen Jahren», sagt Matthias Obrist. «Corona allein war nicht der Auslöser.» Martina Buchli meint dazu: «Diese Entwicklung ist kein neues Phänomen.» Der Selektionsdruck, dem die Kinder und Jugendlichen bereits in jungen Jahren ausgesetzt würden, sei schon vor Corona allgegenwärtig gewesen. " +
+                "«Es gibt heute kaum einen Lebensbereich, in dem es nicht um Leistung geht», so Buchli. Corona hat die Gesellschaft aber stärker für das Thema psychische Gesundheit sensibilisiert, davon sind die Expert*innen überzeugt. Dass sich die Kinder und Jugendlichen stärker belastet fühlen, führt Matthias Obrist nicht zuletzt auf die neue Gemengelage zurück – innere Faktoren wie Stress, Individualisierung, Selbstoptimierung sowie äussere Faktoren wie Kriege, Flucht oder Klimawandel. " +
+                "Das Gefühl der Sicherheit habe stark gelitten, die Verletzbarkeit sei grösser geworden. In diesem Zusammenhang wird oft der Begriff Polykrise genannt. Diese könne einen Einfluss auf junge Menschen haben, glaubt auch Kinderpsychologin Marina Frigerio. Die Bilder aus dem Ukrainekrieg, dem Nahen Osten und der Klimakrise gingen nicht spurlos an ihnen vorbei. «Ich habe Jugendliche erlebt, bei denen diese Themen Angststörungen und Panikattacken ausgelöst haben», sagt sie. " +
+                "Durch soziale Medien seien Krisenbilder und Nachrichten omnipräsent, erklärt Martina Buchli. Ein Vater wollte seinen Sohn vor diesen Einflüssen schützen – vergeblich. Via Smartphone kommt alles direkt in den Alltag, man kann es nicht mehr einfach abschalten wie früher das Radio oder den Fernseher. Frigerio, die mit vielen Jugendlichen aus sozialen Brennpunkten arbeitet, sieht soziale Medien als Chance und Risiko zugleich: Hemmschwellen sinken in der virtuellen Welt. " +
+                "Lehrpersonen sollten das Gespräch mit Schüler*innen und Eltern suchen, rät Matthias Obrist. In Ich-Botschaften könne man Beobachtungen ausdrücken, ohne zu verurteilen. Martina Buchli empfiehlt, sich mit Kolleg*innen, Schulsozialarbeit oder Psychologen auszutauschen. «Es braucht Mut zur Beratung!» Schulleitungen sollten ein Klima schaffen, in dem man offen reden darf – Kritik muss erlaubt sein." },
+        19: {name: "Text10", text: "Wer sich als Lehrperson externe Unterstützung holen möchte, findet diese bei privat tätigen Psycholog*innen oder bei externen Fachstellen wie der Stiftung Berner Gesundheit, die Unterrichtsmaterial zu Themen wie Cybermobbing oder Depression anbietet, zudem Beratungen und Workshops. Auch der schulpsychologische Dienst bietet Fallbesprechungen, Einzelberatungen und teils Supervisionen an. Beratungen und Gespräche helfen aber nicht immer. " +
+                "Was dann? Besonders bei verhaltensauffälligen Schüler*innen müssten, wenn keine Veränderung herbeigeführt werden könne, weitere Schritte geprüft werden, sagt Matthias Obrist. Zuerst brauche es niederschwellige, strukturierende, teils auch disziplinierende Massnahmen. Erst auf einer zweiten Ebene benötige es möglicherweise sonderpädagogische Massnahmen. «Die oberste Spitze der Pyramide ist es, dass ein Kind oder ein Jugendlicher mit sonderschulischen Massnahmen in die Klasse integriert oder gar separiert wird.» " +
+                "Obrist empfiehlt den Lehrpersonen nebst einer guten Klassenführung mit klaren Strukturen, die Partizipation zu fördern: Den Schüler*innen solle eine ihrer Entwicklungsstufe angemessene Mitbestimmung ermöglicht werden. «Das heisst nicht, dass sie alles allein bestimmen können», stellt er klar. «Aber sie lernen so, Verantwortung zu übernehmen.» " +
+                "Aus den Gesprächen mit den Fachleuten geht weiter hervor, dass es zudem künftig immer wichtiger wird, den jungen Menschen die nötige Medienkompetenz mit an die Hand zu geben. Das Personal müsse entsprechend geschult und weitergebildet werden, raten sie. Laut Regula Buchli trägt dieses Vorgehen schon jetzt Früchte: «Ich habe den Eindruck, die Kinder und Jugendlichen haben im Umgang mit den sozialen Medien Fortschritte gemacht.» " +
+                "Sie würden diese mittlerweile bewusster nutzen als noch vor einigen Jahren. Dieses Bewusstsein sei in den Schulen gefördert worden, glaubt sie. Idealerweise erkennt das Umfeld schon sehr früh, wenn ein Kind oder ein Jugendlicher erste Symptome einer psychischen Erkrankung zeigt. Entsprechend Wert legen sollten die Schulen daher auf das Thema Prävention, findet Matthias Obrist. " +
+                "Ihm ist bewusst, dass die Ressourcen dafür beschränkt sind. Umso wichtiger sei es als Lehrperson, seine Schützlinge gut zu kennen. Die Fachleute sind sich einig: Nur wer eine gute Beziehung zu seinen Schüler*innen pflegt und deren Vertrauen geniesst, kann frühzeitig erkennen, wenn etwas nicht mehr stimmt. «Ein guter Draht zu den jungen Menschen ist bereits Prävention», stellt Regula Buchli fest. «Es ist das A und O.» " +
+                "Indem die Lehrpersonen so viel Zeit mit ihnen verbringen würden, seien sie wichtige Bezugspersonen. Wenn diese aufgrund des aktuellen Fachkräftemangels häufiger wechseln, sei dies für manche junge Menschen problematisch. Um eine gute Beziehung aufzubauen, benötige es gar nicht so viel Zeit, wie man vielleicht denken würde, sagt Martina Buchli. " +
+                "«Es reicht schon, wenn die Lehrperson zum Beispiel jeden Morgen allen Schüler*innen die Hand schüttelt.» In diesen Momenten sei es möglich, ein paar Worte zu wechseln. Allein eine kurze Nachfrage könne einen grossen Unterschied machen, zum Beispiel wenn die Lehrperson sich bei einem Schüler oder einer Schülerin erkundige, weshalb er oder sie im Unterricht gefehlt habe. " +
+                "Dieser kurze Austausch signalisiere den Kindern und Jugendlichen eine wichtige Botschaft, meint Martina Buchli: «Ich sehe dich.» Auch Regula Buchli von der Erziehungsberatung Bern weiss, dass bei den Lehrpersonen das Bewusstsein für dieses Thema über die letzten Jahre immer grösser geworden ist. «Ich erlebe viele engagierte Lehrpersonen und Schulleiter*innen, die vieles richtig machen.» " +
+                "Nicht selten müsse sie die Lehrpersonen aber an die Grenzen des Machbaren erinnern. Eine einzelne Person könne nicht alles selbst leisten. «Gewisse Lehrpersonen muss man in Schutz nehmen», sagt Buchli. Ihre Namensvetterin, Martina Buchli, bestätigte diesen Eindruck: Die Lehrer*innen, die sich angesichts der Situation manchmal hilflos fühlen, seien keine ausgebildeten Psychologen. «Wir können von ihnen daher nicht erwarten, dass sie in der Schule alle Probleme allein lösen.»" },
+        20: {name: "Text9", text: "Rain Man war der Erste. In dem Film aus dem Jahr 1988 spielt Dustin Hoffman einen Autisten, der sich zwar äusserst schrullig verhält, aber mit enormen Spezialbegabungen aufwarten kann. Er löst blitzschnell komplizierte Rechenaufgaben, rattert das Telefonbuch auswendig herunter – sowie eigentlich alles, was er jemals gelesen hat.\n" +
+                "\n" +
+                "Seitdem hat sich Autismus zu einer Art popkulturellem Gemeinplatz entwickelt, den Hunderte Filme und Serien auf immer ähnliche Weise wiedergeben: Sheldon Cooper aus der Serie «Big Bang Theory» ist sozial ungelenk, aber schlau und deshalb irgendwie cool. Diverse autistische Ermittlerinnen wie Saga Noren aus der Serie «The Bridge» oder Sherlock aus der gleichnamigen Serie wirken wie schrullige Nerds, aber überführen mit fast übernatürlichen Fähigkeiten Verbrecher.\n" +
+                "\n" +
+                "Analog zur Darstellung im Film scheint die Entwicklungsstörung Autismus mittlerweile eine Art Königsdiagnose der Psychiatrie, weil sie mit erstaunlich wenig Stigmatisierung einhergeht. Menschen assoziieren sie mit Genie, Kreativität, Besonderheit. Eine ähnliche Entwicklung macht gerade ADHS: Vor ein paar Jahren nannte Greta Thunberg Autismus ihre Superkraft, kürzlich bezeichnete Paris Hilton ihr ADHS genauso und erklärte, ihr beruflicher Erfolg sei darauf zurückzuführen.\n" +
+                "\n" +
+                "Vom Zappelphilipp-Syndrom zum Coolness-Faktor\n" +
+                "Die Zahl der ADHS-Diagnosen bei Erwachsenen steigt derzeit steil an. Vor zwanzig Jahren war das sogenannte Zappelphilipp-Syndrom noch eher peinlich, heute dient es in gewissen Kreisen als schickes Identitätslabel, das zur Abgrenzung und Selbstdarstellung auf Social Media dienen kann. Manche gründen als Influencer gar eine ganze Existenz auf ihrer Diagnose.\n" +
+                "\n" +
+                "Die beliebten Störungen sind heute unter einem neuen Begriff zusammengefasst: Betroffene bezeichnen sich als neurodivers. Wobei das Konzept Neurodiversität darauf verweist, dass Hirne nun mal unterschiedlich verdrahtet sind, jeder Mensch anders ist, aber deshalb noch lange nicht gestört. Vielmehr sei die Besonderheit ein Geschenk und verdiene deshalb Respekt. Meist geht es um Autismus oder ADHS, es können aber auch andere psychische Störungen oder Eigenschaften gemeint sein wie Legasthenie oder Hochbegabung – so genau weiss das keiner, denn Neurodiversität ist kein wissenschaftlicher Begriff und auch keine Diagnose.\n" +
+                "\n" +
+                "Trotzdem ist das Phänomen auch in der Psychiatrie als Neurodiversitätsbewegung bekannt: Die australische Soziologin Judy Singer gilt als erste Vertreterin, sie soll den Begriff 1998 mit ihrer Dissertation «Odd people» (komische Leute) eingeführt haben. Der Begriff soll die Stärken der Betroffenen hervorheben und Stigmatisierung verringern. Ihre Andersartigkeit wird nicht als Störung benannt, denn die Betroffenen seien nicht krank. Demzufolge haben sie eigentlich gar kein Problem, dieses entstünde ausschliesslich dadurch, dass die starre und unbarmherzige Gesellschaft eines mit ihnen habe.\n" +
+                "\n" +
+                "Mehr Akzeptanz und Respekt sind eine gute Sache. Aber die Neurodiversitätsbewegung ist mindestens in Teilen schädliche Schönfärberei, das Etikett «neurodivers» ein hübsches, aber nutzloses Selbstdarstellungsmittel. Dieses bringt vor allem denjenigen etwas, die vergleichsweise nicht so furchtbar dringend Hilfe brauchen, indem sie ihnen ein interessantes Identitätsangebot macht. Denjenigen mit richtigem Leidensdruck schadet die Bewegung.\n" +
+                "\n" +
+                "Autisten sind selten hochbegabt\n" +
+                "Jenen Kindern und Erwachsenen, deren Gesundheit eingeschränkt ist und die dringend auf Unterstützung angewiesen sind, hilft es nicht, wenn die Benennung ihres Problems vermieden wird. Im Gegenteil: Sie brauchen häufig unbedingt eine wissenschaftlich begründete Diagnose, damit sie Hilfe und Behandlung erhalten. Der Begriff Neurodiversität signalisiert, dass es keine Störung gibt. Demzufolge bedarf es auch keiner Behandlung und auch keiner Forschung an den Ursachen, was langfristig den schwer Betroffenen enorm schadet.\n" +
+                "\n" +
+                "Besonders deutlich wird die Diskrepanz zwischen Aussenwahrnehmung und Realität an der Entwicklungsstörung Autismus. Rain Man und Sheldon Cooper als drollige Eigenbrötler mit unglaublichen Inselbegabungen sind klischeehafte Darstellungen von Autisten, die es in Wahrheit nur extrem selten gibt.\n" +
+                "\n" +
+                "Die Autismus-Spektrum-Störung ist in drei Schweregrade aufgeteilt. Die meisten Betroffenen sind stark eingeschränkt: Je nach Quelle gilt etwa die Hälfte aller Kinder mit Autismus als geistig behindert, häufig definiert mit einem Intelligenzquotienten von unter 70. 40 Prozent aller Autisten lernen niemals zu sprechen, etwa ein Drittel aller Autisten benötigt ein Leben lang intensive Betreuung, häufig in spezialisierten Einrichtungen. Autismus tritt ausserdem regelmässig gemeinsam mit Epilepsie auf, besonders in der Gruppe von Betroffenen mit einem Intelligenzquotienten von unter 40.\n" +
+                "\n" +
+                "Und selbst die als hochfunktional geltenden Autisten mit einer durchschnittlichen Intelligenz und Sprachentwicklung, die zum Beispiel eine normale Arbeitsstelle finden, scheitern später häufig im Alltag. Sie leiden unter Schwierigkeiten damit, soziale Signale wahrzunehmen, Beziehungen aufzubauen und zu erhalten, reagieren häufig extrem sensibel auf äussere Reize und müssen deutlich häufiger in psychiatrischen Kliniken behandelt werden als die Durchschnittsbevölkerung. Rund 42 Prozent der Erwachsenen erkranken in ihrem Leben zusätzlich an einer Angststörung, 37 Prozent an Depressionen.\n" +
+                "\n" +
+                "Banalste Eigenschaften sind heute neurodivers\n" +
+                "Umso lächerlicher wirkt es, wenn auf Tiktok Wäscheberge und zerwühlte Betten als «neurodiverse Haushalte» vorgezeigt werden, die Abneigung dagegen, dass sich auf dem Teller Kartoffeln und Gemüse berühren, als typisches ADHS-Symptom verhandelt wird und ADHS-Rezepte verbreitet werden. Selbst banalste Persönlichkeitseigenschaften werden fleissig pathologisiert und mit dem Krönchen «neurodivers» geadelt.\n" +
+                "\n" +
+                "@lynemyller Das Thema „Essen“ ist für viele Neurodivergente ein Problem. Entweder isst man zu viel oder zu wenig. Ich vergesse oft zu essen und zu trinken. Dann muss es schnell gehen und ich habe oft keine Energie, um komplizierte Gerichte zu kochen (ganz zu schweigen von einkaufen, vorbereiten und aufräumen danach). Und nein, es hat nichts mit Faulheit zu tun!\n" +
+                "Möglicherweise ist das Etikett einer psychischen Störung deshalb so attraktiv, weil Pathologisierung heute die einzige Möglichkeit geworden ist, Leid und Imperfektion aus der Sicht der Leistungsgesellschaft auf sozial akzeptierte Weise auszudrücken. Schwäche dreht sich auf diese Weise sogar in etwas Positives: Man ist zwar nicht perfekt, dafür aber tief und interessant. Das mag ein verständliches Zeitgeistsymptom sein. Doch wenn Menschen mit unordentlichen Wohnungen oder hochintelligente Autisten mit Inselbegabung im Mittelpunkt der Neurodiversitätsdiskussion stehen, geschieht eine Trivialisierung des echten Leidens. Die Realität der meisten Betroffenen wird unsichtbar.\n" +
+                "\n" +
+                "Eine schädliche Folge davon ist eine Ausweitung der Krankheitszone: Immer mehr Menschen glauben von sich, sie seien von Autismus oder ADHS betroffen, sind es aber nicht. Teile der Neurodiversitätsbewegung fordern sogar, dass nicht mehr die medizinische Diagnose den wirklich Betroffenen kennzeichnen soll, vielmehr solle doch die innere Wahrnehmung, die Identifikation ausschlaggebend sein." },
 
     };
 
@@ -68,6 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const checkButton = document.getElementById("check");
     const submitButton = document.getElementById("submit");
     const feedback = document.getElementById("feedback");
+    const saveButton = document.getElementById("save");
 
     const solutionButton = document.createElement("button");
     solutionButton.textContent = "Lösung anzeigen";
@@ -79,16 +128,66 @@ document.addEventListener("DOMContentLoaded", function () {
     solutionButton.style.border = "none";
     solutionButton.style.cursor = "pointer";
 
+    const continueButton = document.createElement("button");
+    continueButton.textContent = "Weiter";
+    continueButton.style.display = "none";
+    continueButton.style.marginTop = "10px";
+    continueButton.style.padding = "10px";
+    continueButton.style.background = "black";
+    continueButton.style.color = "white";
+    continueButton.style.border = "none";
+    continueButton.style.cursor = "pointer";
+
     document.querySelector(".container").appendChild(solutionButton);
+    document.querySelector(".container").appendChild(continueButton);
 
     let correctText = "";
     let attempts = 1; // Startwert ist 1
+    const maxAttempts = 3 // Maximale Überprüfungen
 
+    // Text aussuchen
     if (taskId && aufgaben[taskId]) {
         document.getElementById("task-title").textContent = aufgaben[taskId].name;
         correctText = aufgaben[taskId].text;
         textArea.value = correctText.replace(/,/g, ""); // Entfernt Kommas für die Übung
     }
+
+    // Verhindert Eingabe aller Zeichen ausser kommas (+Navigation)
+    textArea.addEventListener("keydown", function (event) {
+        const allowedKeys = ["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"];
+
+        if (allowedKeys.includes(event.key)) return;
+
+        // Wenn nicht komma oder löschen dann preventen
+        if (event.key !== "," && event.key !== "Backspace" && event.key !== "Delete") {
+            event.preventDefault();
+        }
+
+        // Löschen nur erlauben, wenn ein komma gelöscht wird
+        if ((event.key === "Backspace") && textArea.value[textArea.selectionStart - 1] !== ",") {
+            event.preventDefault();
+        }
+    });
+
+
+
+    // returns number of commas still missing,
+    function checkText() {
+        const userInput = textArea.value
+        const totalCommas = correctText.split("").filter(c => c === ",").length
+        const userCommas = userInput.split("").filter(c => c === ",").length;
+        console.log(userCommas);
+    }
+
+
+
+
+
+
+
+
+
+
 
     function checkSentence() {
         const userInput = textArea.value.trim();
@@ -119,12 +218,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     checkButton.addEventListener("click", function () {
+        checkText()
+
         if (!checkSentence()) {
             attempts++; // Zählt nur falsche Versuche
         }
+        else if (checkSentence()) {
 
-        if (attempts >= 3) {
-            solutionButton.style.display = "block";
+        }
+
+        if (attempts > maxAttempts) {
+            checkButton.disabled = true; // Deaktiviert den Überprüfen-Button
+            checkButton.style.opacity = "0.5"; // Macht ihn visuell grau
+            feedback.textContent = "⚠️ Du kannst nicht mehr überprüfen! ⚠️"
         }
     });
 
@@ -135,27 +241,41 @@ document.addEventListener("DOMContentLoaded", function () {
         solutionButton.style.display = "none";
     });
 
-    submitButton.addEventListener("click", function () {
-        if (!confirm("Bist du sicher, dass du abgeben möchtest?")) {
-            return; // Falls "Abbrechen" geklickt wird, passiert nichts
-        }
+    continueButton.addEventListener("click", function () {
+        // Save the exercise
+        window.location.href = "index.html";
+    });
 
-        const isCorrect = checkSentence();
+    saveButton.addEventListener("click", function () {
+        // Save the exercise
+        window.location.href = "index.html";
+    });
+
+    submitButton.addEventListener("click", function () {
+        //if (!confirm("Bist du sicher, dass du abgeben möchtest?")) {
+        //    return; // Falls "Abbrechen" geklickt wird, passiert nichts
+        //}
+
+        checkText()
+        const isCorrect = checkSentence()
+
+        textArea.disabled = true
+
+        continueButton.style.display = "block";
+        solutionButton.style.display = "block"
+        submitButton.disabled = true;
+        submitButton.style.opacity = "0.5";
+        checkButton.disabled = true;
+        checkButton.style.opacity = "0.5";
+        saveButton.disabled = true;
+        saveButton.style.opacity = "0.5";
 
         if (!isCorrect) {
-            feedback.innerHTML = "❌ <b>Die Aufgabe wurde nicht richtig gelöst.</b>";
             feedback.style.color = "red";
             textArea.style.border = "2px solid red";
             return; // Abgabe wird blockiert, wenn es noch falsch ist
         }
 
-        if (attempts === 1) {
-            localStorage.setItem("finalResult", "perfect");
-        } else if (attempts <= 3) {
-            localStorage.setItem("finalResult", "good");
-        } else {
-            localStorage.setItem("finalResult", "fail");
-        }
 
         localStorage.setItem("attempts", attempts);
         localStorage.setItem("taskId", taskId);

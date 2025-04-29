@@ -11,15 +11,15 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     if (attempts === 1) {
-        resultMessage.innerHTML = "🎉 <b>Sehr gut!</b> Du hast alles auf Anhieb richtig gemacht!";
+        resultMessage.innerHTML = " <b>Sehr gut!</b> Du hast alles auf Anhieb richtig gemacht!";
         resultMessage.style.color = "green";
         attemptsInfo.textContent = `Du hast die Aufgabe in ${attempts} Versuch(en) gelöst. Perfekt!`;
     } else if (attempts <= 3) { // 2 oder 3 Versuche = Gut
-        resultMessage.innerHTML = "🙂 <b>Gut!</b> Du hast es mit ein paar Versuchen geschafft.";
+        resultMessage.innerHTML = " <b>Gut!</b> Du hast es mit ein paar Versuchen geschafft.";
         resultMessage.style.color = "orange";
         attemptsInfo.textContent = `Du hast insgesamt ${attempts} Mal überprüft, bevor du alles richtig hattest.`;
     } else {
-        resultMessage.innerHTML = "❌ <b>Versuche es später noch einmal.</b>";
+        resultMessage.innerHTML = " <b>Versuche es später noch einmal.</b>";
         resultMessage.style.color = "red";
         attemptsInfo.textContent = `Du hast die Aufgabe ${attempts} Mal überprüft, aber sie war nicht korrekt.`;
     }

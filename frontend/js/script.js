@@ -179,15 +179,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-
-
-
-
-
-
-
-
-
     function checkSentence() {
         const userInput = textArea.value.trim();
         const correctCommas = correctText.split("").filter(c => c === ",").length;
@@ -198,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (userInput === correctText) {
             textArea.style.border = "2px solid green";
             feedback.style.color = "green";
-            feedback.textContent = "✅ Alles korrekt! Super gemacht!";
+            feedback.textContent = " Alles korrekt! Super gemacht!";
             return true;
         }
 
@@ -206,16 +197,15 @@ document.addEventListener("DOMContentLoaded", function () {
         feedback.style.color = "red";
 
         if (missingCommas > 0 && extraCommas > 0) {
-            feedback.textContent = `❌ Du hast ${extraCommas} Komma(s) zu viel und es fehlen noch ${missingCommas} Komma(s). Versuche es nochmal!`;
+            feedback.textContent = ` Du hast ${extraCommas} Komma(s) zu viel und es fehlen noch ${missingCommas} Komma(s). Versuche es nochmal!`;
         } else if (missingCommas > 0) {
-            feedback.textContent = `❌ Es fehlen noch ${missingCommas} Komma(s). Versuch es nochmal!`;
+            feedback.textContent = ` Es fehlen noch ${missingCommas} Komma(s). Versuch es nochmal!`;
         } else if (extraCommas > 0) {
-            feedback.textContent = `❌ Du hast ${extraCommas} Komma(s) zu viel. Versuch es nochmal!`;
+            feedback.textContent = ` Du hast ${extraCommas} Komma(s) zu viel. Versuch es nochmal!`;
         }
 
         return false;
     }
-
     checkButton.addEventListener("click", function () {
         checkText()
 
@@ -279,5 +269,6 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem("attempts", attempts);
         localStorage.setItem("taskId", taskId);
         window.location.href = "auswertung.html";
+
     });
 });

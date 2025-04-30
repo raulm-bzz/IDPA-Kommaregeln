@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-    // returns number of commas still missing,
+    // gibt die Anzahl fehlender Kommas zurück
     function checkText() {
         const userInput = textArea.value
         const totalCommas = correctText.split("").filter(c => c === ",").length

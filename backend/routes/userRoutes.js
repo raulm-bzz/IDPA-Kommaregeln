@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const { registerUser, findUser, getAllUsers} = require('../controllers/userController')
+const { registerUser, findUser, getAllUsers, addUserEx} = require('../controllers/userController')
 
 // Route to register a new user
 router.post('/register', registerUser)
@@ -9,5 +9,7 @@ router.post('/register', registerUser)
 router.get('/:username', findUser)
 
 router.get('/', getAllUsers)
+
+router.post('/adduserex', addUserEx)
 
 module.exports = router

@@ -209,3 +209,14 @@ body.largeText h5,
 body.largeText h6 {
     color: #4CAF50; /* Beispiel: Grün */
 }
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

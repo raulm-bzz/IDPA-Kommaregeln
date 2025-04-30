@@ -21,7 +21,7 @@ URL: http://localhost:5000/api/exercises/add
 Method: POST  
 Body: { "_id": 1, "text": "" }
 
-*get all users*  
+*get all exercises*  
 URL: http://localhost:5000/api/exercises  
 Method: GET  
 Body: {}

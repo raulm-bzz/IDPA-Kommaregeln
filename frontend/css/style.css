@@ -9,6 +9,11 @@ body {
     padding-top: 60px; /* Platz für fixierten Header */
 }
 
+h1, h2 {
+    color: #4CAF50;
+}
+
+
 .header {
     background: black;
     color: white;
@@ -209,6 +214,8 @@ body.largeText h5,
 body.largeText h6 {
     color: #4CAF50; /* Beispiel: Grün */
 }
+
+h
 
 footer {
     background: black;

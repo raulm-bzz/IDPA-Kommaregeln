@@ -224,7 +224,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     solutionButton.addEventListener("click", function () {
-        feedback.innerHTML = `✅ Hier ist die richtige Lösung:<br><b>${correctText}</b>`;
+        feedback.innerHTML = `✅ Hier ist die richtige Lösung:<br><b>${correctText.replace(/,/g, '<span style="color: red;">,</span>')}</b>`;
         feedback.style.color = "green";
         textArea.style.border = "2px solid green";
         solutionButton.style.display = "none";

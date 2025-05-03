@@ -3,8 +3,9 @@ const Exercise = require('../schemas/exercise')
 // Add new exercise
 const addExercise = async (req, res) => {
     try {
-        const _id = req.body._id, text = req.body.text
-        const newExercise = new Exercise({_id, text})
+        content = req.body
+        const exerciseType = content.exerciseType, name = content.name, text = content.text
+        const newExercise = new Exercise({exerciseType, name, text})
         await newExercise.save()
         res.status(201).json({ message: "Exercise added successfully" })
     } catch (error) {

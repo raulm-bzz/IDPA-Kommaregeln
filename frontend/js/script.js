@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     const params = new URLSearchParams(window.location.search);
     const taskID = params.get("task") //get the taskID
+    localStorage.setItem("taskID", taskID);
     const textArea = document.getElementById("sentence");
     const checkButton = document.getElementById("check");
     const submitButton = document.getElementById("submit");
@@ -47,6 +48,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
     const exercise = await response.json();
 
+
     document.getElementById("task-title").textContent = exercise.name;
     correctText = exercise.text
     textArea.value = correctText.replace(/,/g, ""); // Entfernt Kommas für die Übung
@@ -67,6 +69,10 @@ document.addEventListener("DOMContentLoaded", async function () {
             event.preventDefault();
         }
     });
+
+    function saveExercise() {
+
+    }
 
 
     function checkSentence() {
@@ -119,7 +125,10 @@ document.addEventListener("DOMContentLoaded", async function () {
     });
 
     continueButton.addEventListener("click", function () {
-        // Save the exercise
+        // Save the exercise and continue to auswertung
+        localStorage.setItem("attempts", attempts);
+        localStorage.setItem("inputText", textArea.value);
+        saveExercise(inputText, taskID);
         window.location.href = "index.html";
     });
 
@@ -134,6 +143,8 @@ document.addEventListener("DOMContentLoaded", async function () {
         }
 
         const isCorrect = checkSentence()
+        localStorage.setItem("isCorrect", isCorrect);
+
 
         textArea.disabled = true
 
@@ -149,13 +160,6 @@ document.addEventListener("DOMContentLoaded", async function () {
         if (!isCorrect) {
             feedback.style.color = "red";
             textArea.style.border = "2px solid red";
-            return; // Abgabe wird blockiert, wenn es noch falsch ist
         }
-
-
-        localStorage.setItem("attempts", attempts);
-        localStorage.setItem("taskId", taskId);
-        window.location.href = "auswertung.html";
-
     });
 });

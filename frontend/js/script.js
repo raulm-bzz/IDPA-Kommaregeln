@@ -1,8 +1,8 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const aufgaben = {}
+document.addEventListener("DOMContentLoaded", async function () {
 
     const params = new URLSearchParams(window.location.search);
-    const taskId = params.get("task");
+    const taskID = params.get("task") //get the taskID
+    localStorage.setItem("taskID", taskID);
     const textArea = document.getElementById("sentence");
     const checkButton = document.getElementById("check");
     const submitButton = document.getElementById("submit");
@@ -37,11 +37,21 @@ document.addEventListener("DOMContentLoaded", function () {
     const maxAttempts = 3 // Maximale Überprüfungen
 
     // Text aussuchen
-    if (taskId && aufgaben[taskId]) {
-        document.getElementById("task-title").textContent = aufgaben[taskId].name;
-        correctText = aufgaben[taskId].text;
-        textArea.value = correctText.replace(/,/g, ""); // Entfernt Kommas für die Übung
+    const response = await fetch(`http://localhost:5000/api/exercises/${taskID}`, {
+        method: "GET",
+        headers: { "Content-Type": "application/json" },
+    });
+
+    if (!response.ok) {
+        console.error("Fetch error:", response.statusText);
+        return;
     }
+    const exercise = await response.json();
+
+
+    document.getElementById("task-title").textContent = exercise.name;
+    correctText = exercise.text
+    textArea.value = correctText.replace(/,/g, ""); // Entfernt Kommas für die Übung
 
     // Verhindert Eingabe aller Zeichen ausser kommas (+Navigation)
     textArea.addEventListener("keydown", function (event) {
@@ -60,14 +70,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    function saveExercise() {
 
-
-    // gibt die Anzahl fehlender Kommas zurück
-    function checkText() {
-        const userInput = textArea.value
-        const totalCommas = correctText.split("").filter(c => c === ",").length
-        const userCommas = userInput.split("").filter(c => c === ",").length;
-        console.log(userCommas);
     }
 
 
@@ -88,30 +92,28 @@ document.addEventListener("DOMContentLoaded", function () {
         textArea.style.border = "2px solid red";
         feedback.style.color = "red";
 
-        if (missingCommas > 0 && extraCommas > 0) {
-            feedback.textContent = ` Du hast ${extraCommas} Komma(s) zu viel und es fehlen noch ${missingCommas} Komma(s). Versuche es nochmal!`;
+        if (userCommas === correctCommas) {
+            feedback.textContent = ` Du hast die richtige Anzahl an Kommas aber sind sind sie Korrekt?.`;
         } else if (missingCommas > 0) {
-            feedback.textContent = ` Es fehlen noch ${missingCommas} Komma(s). Versuch es nochmal!`;
+            feedback.textContent = ` Es fehlen noch ${missingCommas} Komma(s).`;
         } else if (extraCommas > 0) {
-            feedback.textContent = ` Du hast ${extraCommas} Komma(s) zu viel. Versuch es nochmal!`;
+            feedback.textContent = ` Du hast ${extraCommas} Komma(s) zu viel.`;
         }
 
         return false;
     }
     checkButton.addEventListener("click", function () {
-        checkText()
 
         if (!checkSentence()) {
             attempts++; // Zählt nur falsche Versuche
         }
         else if (checkSentence()) {
-
+            return
         }
 
         if (attempts > maxAttempts) {
             checkButton.disabled = true; // Deaktiviert den Überprüfen-Button
             checkButton.style.opacity = "0.5"; // Macht ihn visuell grau
-            feedback.textContent = "⚠️ Du kannst nicht mehr überprüfen! ⚠️"
         }
     });
 
@@ -123,7 +125,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     continueButton.addEventListener("click", function () {
-        // Save the exercise
+        // Save the exercise and continue to auswertung
+        localStorage.setItem("attempts", attempts);
+        localStorage.setItem("inputText", textArea.value);
+        saveExercise(inputText, taskID);
         window.location.href = "index.html";
     });
 
@@ -133,12 +138,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     submitButton.addEventListener("click", function () {
-        //if (!confirm("Bist du sicher, dass du abgeben möchtest?")) {
-        //    return; // Falls "Abbrechen" geklickt wird, passiert nichts
-        //}
+        if (!confirm("Bist du sicher, dass du abgeben möchtest?")) {
+            return; // Falls "Abbrechen" geklickt wird, passiert nichts
+        }
 
-        checkText()
         const isCorrect = checkSentence()
+        localStorage.setItem("isCorrect", isCorrect);
+
 
         textArea.disabled = true
 
@@ -154,13 +160,6 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!isCorrect) {
             feedback.style.color = "red";
             textArea.style.border = "2px solid red";
-            return; // Abgabe wird blockiert, wenn es noch falsch ist
         }
-
-
-        localStorage.setItem("attempts", attempts);
-        localStorage.setItem("taskId", taskId);
-        window.location.href = "auswertung.html";
-
     });
 });

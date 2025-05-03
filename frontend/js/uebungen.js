@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", async function() {
             button.classList.add("task-button");
             button.textContent = exercise.name;
             button.addEventListener("click", function() {
-                window.location.href = `trainer.html?task=${exercise.id}`;
+                window.location.href = `trainer.html?task=${exercise._id}`;
             });
             container.appendChild(button);
         });

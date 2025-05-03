@@ -11,7 +11,7 @@ function updateHeader() {
     const userLoggedIn = localStorage.getItem("loggedInUser"); // Check ob User eingeloggt ist
     const loginLink = document.getElementById("loginLink");
 
-    if (userLoggedIn) {
+    if (!userLoggedIn) {
         loginLink.textContent = "👤 Account";
         loginLink.href = "account.html";
     }

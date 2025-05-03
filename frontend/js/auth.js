@@ -43,8 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const data = await response.json();
         if (response.ok) {
-            localStorage.setItem("token", data.token);
-            console.log(token)//speichert session token
+            localStorage.setItem("token", data.token); //speichert session token
             window.location.href = "index.html";
         } else {
             alert(data.error || "Fehler beim Login");

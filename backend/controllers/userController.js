@@ -9,12 +9,12 @@ const registerUser = async (req, res) => {
         const password = req.body.password
         console.log(password)
         const hashed = await bcrypt.hash(password, 10)
-        console.log(hashed)
 
         const newUser = new User({
             username: username,
             password: hashed
         })
+
         await newUser.save();
         res.status(201).json({ message: "User registered successfully" })
     } catch (error) {
@@ -37,8 +37,8 @@ const loginUser = async (req, res) => {
         if (!user || !(await bcrypt.compare(password, user.password))) {
             return res.status(401).json({ error: "Ungültige Anmeldedaten" });
         }
-
-        const token = jwt.sign({ userId: user._id }, "SECRET_KEY");
+        console.log("Correct Password")
+        const token = jwt.sign({ userId: user._id, username: user.username }, "SECRET_KEY");
         res.json({ token });
     } catch (err) {
         res.status(500).json({ error: "Serverfehler" });
@@ -57,6 +57,17 @@ const findUser = async (req, res) => {
         res.json(user)
     } catch (error) {
         res.status(500).json({ error: "Failed to execute findUser function" })
+    }
+}
+
+const findUserByID = async (req, res) => {
+    try {
+        const user = await User.findById(req.params.id)
+        console.log(user)
+        if (!user) return res.status(404).json({error: 'Benutzer nicht gefunden'});
+        res.json(user);
+    } catch (err) {
+        res.status(500).json({error: 'Serverfehler'});
     }
 }
 
@@ -83,4 +94,4 @@ const addUserEx = async (req, res) => {
     }
 }
 
-module.exports = { registerUser, loginUser, findUser, getAllUsers, addUserEx }
+module.exports = { registerUser, loginUser, findUser, getAllUsers, addUserEx, findUserByID }

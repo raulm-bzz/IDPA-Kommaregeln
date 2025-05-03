@@ -5,8 +5,8 @@ URL: http://localhost:5000/api/users/register
 Method: POST  
 Body: { "username": "", "text": "" }  
 
-*find a user with username in params*  
-URL: http://localhost:5000/api/users/:username  
+*find a user with userId in params*  
+URL: http://localhost:5000/api/users/:userId  
 Method: GET  
 Body: {}  
 

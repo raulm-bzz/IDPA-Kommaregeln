@@ -9,6 +9,11 @@ body {
     padding-top: 60px; /* Platz für fixierten Header */
 }
 
+h1, h2 {
+    color: #4CAF50;
+}
+
+
 .header {
     background: black;
     color: white;
@@ -199,7 +204,7 @@ body.wide-page .container {
     max-width: 1000px;  /* Etwas breiter als Standard */
 }
 
-/* Unused Tags h3-6 included for Scalability Purposes */
+/* Unbenutzte Tags für Skalierbarkeit*/
 
 body.largeText h1,
 body.largeText h2,
@@ -208,4 +213,17 @@ body.largeText h4,
 body.largeText h5,
 body.largeText h6 {
     color: #4CAF50; /* Beispiel: Grün */
+}
+
+h
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }

@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const username = document.getElementById('regUsername').value
         const password = document.getElementById('regPassword').value
         try {
-            // send the data to the backend API
+            // schike daten an die backend api
             const response = await fetch('http://localhost:5000/api/users/register', {
                 method: 'POST',
                 headers: {
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.log('User registered:', result);
                 window.location.href = '/IDPA-Kommaregeln/frontend/login.html';
             } else {
-                // If there was an error with the registration (e.g., username already taken)
+                // falls error mit registrierung (z.B. username schon vergeben)
                 const error = await response.json();
                 alert('Error: ' + error.message);
             }

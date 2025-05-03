@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 "Bei den älteren und den alten Patientinnen und Patienten begegnet der Therapeut häufig der «Isolationsneurose», wie er sagt, das heisst Menschen, die sich trotz aller Vernetztheit und virtueller Präsenz im Netz nicht aus der eigenen Einsamkeit zu befreien vermögen. Schliesslich ist da noch die «Verbitterungsneurose», die offenbar immer öfter am Lebensende des digitalen Menschen steht, insbesondere bei Männern: das krankhafte Kreisen um sich selbst und das Trauern um verpasste Möglichkeiten. Wer darunter leidet, so Hepp, «nimmt das Selbstmitleid ins Grab». "},
         10: {name: "Text5", text: "Zugegeben, die Befunde des Münchner Therapeuten lösen keine grosse Zuversicht aus, was das Seelenwohl der heutigen Gesellschaft anbelangt. Neuste Gesundheitszahlen scheinen indessen seine Sicht zu stützen. In Deutschland lag im Jahr 2022 der Bedarf an Psychotherapie für Kinder und Jugendliche immer noch rund 60 Prozent über dem Niveau von vor der Pandemie; bei den Erwachsenen vermeldet die Deutsche Psychotherapeutenvereinigung einen Wert von 40 Prozent. Zur Situation in der Schweiz berichtet die Föderation der Schweizer Psychologinnen und Psychologen (FSP), dass die Nachfrage bei den Erwachsenen «eher zunehme». «Stark angestiegen» sind die Fallzahlen in der stationären Kinder- und Jugendpsychiatrie. \n" +
                 "Maschinen ersetzen Menschen, eine Ursache für das Auftreten der «Isolationsneurose»: Pflegeroboter in einem Altersheim. \n" +
-                "Maschinen ersetzen Menschen, eine Ursache für das Auftreten der «Isolationsneurose»: Pflegeroboter in einem Altersheim. \n" +
                 "Für Hepp ist klar: «Wir erlebten mit der Pandemie ein Massenexperiment. Es ist deutlich geworden, dass die Virtualisierung des Lebens unserer Psyche nicht bekommt.» Der Verlust an tatsächlichen Kontakten, die Verlagerung von Erlebnissen und Erfahrungen in den digitalen Raum, sei für Kinder und Jugendliche besonders schädlich, da sie im Gegensatz zu Erwachsenen nicht auf einen grossen Fundus real erlebter Ereignisse zurückgreifen könnten. \n" +
                 "Der Entzug von sozialen Interaktionen, der Verlust von Begegnungen und Berührungen, wird in der Medizin und der Psychologie Hospitalismus genannt. Wenn Menschen etwa in Spitälern und Heimen vernachlässigt werden, können körperliche, emotionale und soziale Schäden entstehen. Mit der fortschreitenden Virtualisierung der Lebenswelt nehmen tatsächliche Begegnungen und Berührungen zwangsläufig ab – und damit seien ähnliche negative Folgen zu befürchten wie beim Hospitalismus, argumentiert Hepp. "},
         11: {name: "Text6", text: "So ist sein Homo Digitalis womöglich der bislang neurotischste Homo sapiens überhaupt. Ein Super-Neurotiker. Entkörpert, ausgewandert in den Cyberspace, andauernd überfordert von der rasanten Entwicklung, die er selbst losgetreten hat. Für den Therapeuten Hepp gibt es im jüngeren Zivilisationsprozess diese eine Zäsur: 2007 – das Jahr, in dem das Smartphone auf den Markt kam, das iPhone, diese ortsunabhängigen Schnittstellen zur digitalen Welt. «Der Mensch ist für Veränderungen in diesem Tempo nicht gemacht», sagt Hepp, «das ist nichts für biologisch-genetische Anpassungsprozesse.» \n" +
@@ -44,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
         15: {name: "Text10", text: "Die eisigen Temperaturen sind selbst für Chicago extrem. Nicht umsonst wird die Stadt am Michigan-See «Windy City» genannt – einerseits wegen des steifen Windes, der hier «Hawk» genannt wird, nach dem Falken mit seinem scharfen Schnabel, andererseits wegen der Mafia-Vergangenheit, die der Stadt bis heute einen «windigen» Ruf verpasst.\n" +
                 "Eigentlich ist man ganz froh um die Corona-Gesichtsmasken; sie schützen Mund und Nase. Manche tragen Balaklawa-Wollmützen – Sturmhauben, die zwar praktisch sind, aber einen wie ein Bankräuber aussehen lassen. Überhaupt wirken die Pandemie und die Kälte zusammen. Bei den eisigen Temperaturen bleibt man ohnehin zu Hause, selbst wenn die Restaurants und die Museen jetzt nach und nach wieder öffnen. Einige Cafés haben Plastikverschläge mit Wärmelampen auf dem Gehsteig aufgestellt; aber wer irgendwie kann, trinkt seinen Kaffee lieber zu Hause.\n" +
                 "Bei den Metrostationen gibt es jeweils einen Unterstand mit Wärmelampen, die man per Knopfdruck einschalten kann. Allerdings ist er klein, und wegen Covid-19 scheuen sich die Passagiere, sich dort allzu zahlreich zusammenzudrängen. Normalerweise sind die öffentlichen Bibliotheken, die es in jedem Quartier gibt, während der härtesten Winterwochen beliebte Rückzugsorte. Wegen Corona sind sie nun jedoch geschlossen. Immerhin gibt es sogenannte Wärmezentren, wo sich vor allem Obdachlose für einige Zeit aufwärmen können. Für sie ist das oft eine Frage von Leben und Tod."},
-        16: {name: "Text9", text: "Ein Freund hatte Geburtstag, am 6. Februar, es gab aber keine Party, was ich sehr bedauerte, denn je älter man wird, desto mehr sollte man die Feste feiern. Also stellte ich mir die Geburtstagsparty meines Freundes eben vor, denn sich Dinge vorzustellen ist im Grunde recht mühelos und vor allem: gratis. Nicht selten ist zudem die Vorstellung von etwas sogar schöner als die Wirklichkeit.\n" +
+        16: {name: "Text9", text: "Ein Freund hatte Geburtstag am 6. Februar, es gab aber keine Party, was ich sehr bedauerte, denn je älter man wird, desto mehr sollte man die Feste feiern. Also stellte ich mir die Geburtstagsparty meines Freundes eben vor, denn sich Dinge vorzustellen ist im Grunde recht mühelos und vor allem: gratis. Nicht selten ist zudem die Vorstellung von etwas sogar schöner als die Wirklichkeit.\n" +
                 "Genauer stellte ich mir vor, wie mein Freund Menschen zu seinem Geburtstag einlädt, die alle am selben Tag wie er zur Welt gekommen sind. Und da es sich um reine Vorstellung handelte, spielte es auch keine Rolle, ob diese Menschen noch leben oder schon tausend Jahre unter der Erde liegen, denn es ist eine Tatsache: Es gibt mehr interessante Tote als Lebende.\n" +
                 "Ich schlich mich also an die imaginäre Party der am 6. Februar Geborenen und sah gleich beim Eingang Bernhard von Prittwitz und Gaffron in seiner feschen Uniform, einst preussischer Rittmeister, im Gespräch vertieft mit Pierre Brice alias Winnetou. Sicherlich unterhielten sie sich über Iltschi, den Rappen, welcher nach Winnetous Tod erschossen wurde, damit man den Apachenhäuptling mit ihm zusammen begraben konnte.\n" +
                 "Erna Sack stand auch noch dort, eine deutsche Sopranistin. Schnell weiter! Bevor Erna Sack zu singen anfinge, denn sie war dafür berühmt, mit ihrem Organ das viergestrichene C zu erklimmen, die höchsten Höhen eines eh schon hohen Tones, der Haustiere in den Suizid durch Fenstersturz trieb und Brillengläser zum Zerplatzen brachte.\n" +
@@ -53,14 +52,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 "Wer noch? Christian Henrich Heineken selbstverständlich, der nicht Bierbrauer war, sondern ein Wunderkind. Schon als Zweijähriger beherrschte Heineken Latein und Französisch.\n" +
                 "Eine illustre Runde käme da zusammen, der 6. Februar scheint es in sich zu haben! Heute aber ist leider nicht der 6. Februar, sondern der 9. März. Heute haben andere Geburtstag. Zum Beispiel Kurt Latte, deutscher Altphilologe, der kaum unerwähnt liesse, mit seiner Dissertation über kultische Tänze bei den alten Griechen summa cum laude promoviert zu haben. Oder Johann Georg Rohr, ein Glockengiesser aus dem 17. Jahrhundert. Oder Adolf Scheibe, der Entdecker der Inkonstanz der Erdrotationsgeschwindigkeit.\n" +
                 "Das gäbe eine Party: Gespräche über das Glockengiessen, kultische Tänze bei den alten Griechen und die stotternde Erdrotation. Am 9. März haben anscheinend nur Langweiler Geburtstag. Ich stünde an dem Fest bald dort, wo es bei jeder Party am interessantesten ist – in der Küche, in der Nähe des Kühlschranks, oder auf dem Balkon, rauchend und auf die Uhr blickend, die ich mir selbst zum 55. Geburtstag geschenkt habe, in der Hoffnung, sie würde mir sagen, dass es nun an der Zeit wäre, die Gäste rauszuschmeissen und langsam, aber sicher zu Bett zu gehen." },
-        17: {name: "Text10", text: "Aus gesundheitlichen Gründen hat sie mit dem Musikmachen aufhören müssen. Die kanadische Songschreiberin und Malerin Joni Mitchell (77) litt unter Hautausschlägen, die dermassen schmerzten, dass jedes Kleidungsstück auf ihrer Haut brannte. Ausserdem brauchte sie Jahre, um sich von einem Schlaganfall zu erholen. Als Kind hatte sie unter Polio gelitten, und es gab Zeiten, da konnte sie gar nicht stehen. Dazu entsprang aus ihrer ersten, früh gescheiterten Ehe eine Tochter, die Mitchell zur Adoption freigab – ein Entscheid, für den sie mit lebenslangen Schuldgefühlen bezahlte. Dazu kamen Depressionen, die sie immer wieder heimsuchten. Trotz diesen Hemmnissen entwickelte sich Mitchell zu einer lyrisch und musikalisch einmaligen Songschreibein. «Sie brachte die Frauen zum Singen und die Männer zum Zuhören», schreibt der Literaturprofessor David Yaffe in seiner neuen Biografie. Die Musikerin tat beides zu ihren Bedingungen, was in einem korrupten Geschäft wie dem Showbusiness schon Männern schwerfällt. Sie tat eben alles auf ihre Art. Für das Musikgeschäft hatte sie nur Verachtung übrig, anderen Musikern trat sie von Anfang an als Gleichwertige gegenüber, sie suchte die Auseinandersetzung mit den vielen Musikern, mit denen sie befreundet war und zugleich rivalisierte: David Crosby, Graham Nash, Leonard Cohen, Bob Dylan, Jackson Browne, Jaco Pastorius, Charles Mingus, Chick Corea und all den \n" +
+        17: {name: "Text10", text: "Aus gesundheitlichen Gründen hat sie mit dem Musikmachen aufhören müssen. Die kanadische Songschreiberin und Malerin Joni Mitchell (77) litt unter Hautausschlägen, die dermassen schmerzten, dass jedes Kleidungsstück auf ihrer Haut brannte. Ausserdem brauchte sie Jahre, um sich von einem Schlaganfall zu erholen. Als Kind hatte sie unter Polio gelitten und es gab Zeiten, da konnte sie gar nicht stehen. Dazu entsprang aus ihrer ersten, früh gescheiterten Ehe eine Tochter, die Mitchell zur Adoption freigab – ein Entscheid, für den sie mit lebenslangen Schuldgefühlen bezahlte. Dazu kamen Depressionen, die sie immer wieder heimsuchten. Trotz diesen Hemmnissen entwickelte sich Mitchell zu einer lyrisch und musikalisch einmaligen Songschreibein. «Sie brachte die Frauen zum Singen und die Männer zum Zuhören», schreibt der Literaturprofessor David Yaffe in seiner neuen Biografie. Die Musikerin tat beides zu ihren Bedingungen, was in einem korrupten Geschäft wie dem Showbusiness schon Männern schwerfällt. Sie tat eben alles auf ihre Art. Für das Musikgeschäft hatte sie nur Verachtung übrig, anderen Musikern trat sie von Anfang an als Gleichwertige gegenüber, sie suchte die Auseinandersetzung mit den vielen Musikern, mit denen sie befreundet war und zugleich rivalisierte: David Crosby, Graham Nash, Leonard Cohen, Bob Dylan, Jackson Browne, Jaco Pastorius, Charles Mingus, Chick Corea und all den \n" +
                 "anderen. Und obgleich sie sich als Künstlerin bald etablierte, wollte sie mit dem Feminismus nichts zu tun haben. «Obwohl meine Probleme mit meinem Frau sein zu tun hatten, haben mir die Feministinnen nicht geholfen», sagt sie ungerührt; «ich habe mich immer mit denen gestritten.» Die Missverständnisse kommen nicht von ungefähr Dieses überraschende Bekenntnis fällt in einem der drei langen Gespräche, die Joni Mitchell mit der kanadischen Musikerin Malka Marom geführt hat, teil weise Jahrzehnte auseinander. Die Interviews, eben in deutscher Übersetzung erschienen, machen deutlich, dass die Künstlerin sich ebenso als Malerin wie als Musikerin versteht, dass sie eine gros se, eklektische Leserin ist; und dass sie ihre Texte als «beinahe offene Briefe» bezeichnet, so persönlich sind sie geraten. Von Musikern wie Frank Zappa, Miles Davis oder Charles Mingus, nicht für ihre Frauenfreundlichkeit bekannt, wurde Joni Mitchell für ihren eigenwilligen Einsatz von Akkorden, Rhythmen und Tonarten bewundert. Auch andere Musiker hörten aus ihrem Spiel eine eigenwillige Kombination von Jazz mit seinem modalen und chromatischen Spiel in Kombination mit der Folkmusik her aus, von der aus die strikte Autodidaktin in Kanada aufgebrochen war. Schmerzen und Selbstbefreiung künden, ohne je ins Sentimentale abzuschmieren. Damit hat die Songwriterin Tausenden von jungen Musikerinnen vorgemacht, dass man auch als Frau in der Männerwelt der Rockmusik brillieren kann mit hohen Ansprüchen. Und dass man sich durchsetzt, selbst wenn man die Musikindustrie ablehnt und der Presse misstraut.\n" +
                 "\n" },
         18: {name: "Text9", text: "Wie geht es den Kindern und Jugendlichen in der Schweiz? Seit der Coronapandemie stellt sich uns als Gesellschaft diese Frage so häufig wie nie zuvor. Das kommt nicht von ungefähr. Allein ein Blick in den letzten Jahresbericht von Pro Juventute reicht, um zu belegen, dass es gute Gründe gibt, sich intensiv mit dem Thema zu befassen. Die psychische Belastung für die Kinder und Jugendlichen sowie ihre Familien habe bedauerlicherweise stark zugenommen, ist dort zu lesen. " +
                 "Bei der Beratungshotline von Pro Juventute sind 2022 die Anfragen zu «depressiver Stimmung» um 13 Prozent gegenüber dem Vorjahr gestiegen, zur Thematik «Angst» gar um 19 Prozent. Und ein Ende dieser Entwicklung ist aktuell nicht in Sicht. Im Gegenteil: Die psychiatrische Versorgung läuft am Limit. Auch in diesem Jahr ist weiterhin von zu wenig Therapieplätzen und langen Wartezeiten zu lesen. " +
                 "Bei der Kinder- und Jugendpsychiatrie im Kanton Zürich liege die Frist aktuell bei rund einem halben Jahr, sagt Matthias Obrist aus Erfahrung. Der Präsident der Stellenleitungskonferenz Schulpsychologische Dienste (SLKSPD) beobachtet schon seit einiger Zeit, dass das Versorgungssystem an seine Kapazitätsgrenzen gelangt. Beim Schulpsychologischen Dienst der Stadt Zürich gilt die Devise, dass 80 Prozent der Anfragen innerhalb von zwei Monaten behandelt werden sollen. " +
                 "Obrist und sein Team haben aber festgestellt, dass Schulen und Eltern unter grossem Druck stehen. Der schulpsychologische Dienst kann überbrücken, um jene Kinder und Jugendlichen aufzufangen, die auf eine Behandlung in der Kinder- und Jugendpsychiatrie warten müssen. Insbesondere die Schulen würden die langen Wartezeiten zu spüren bekommen, weiss Martina Buchli. Sie arbeitet für die Stiftung Berner Gesundheit im Kanton Bern. " +
-                "«Es ist für die Lehrerpersonen sehr herausfordernd, Schüler*innen zu unterrichten, die noch keinen Therapieplatz erhalten haben.» Eine solche Situation könne die Dynamik innerhalb einer ganzen Klasse negativ beeinflussen. Expert*innen sind sich einig: Die Zahl der Kinder und Jugendlichen mit psychischen Schwierigkeiten ist in den letzten Jahren weiter angestiegen. Auf die Frage nach den Gründen, fällt die Antwort komplexer aus. " +
+                "«Es ist für die Lehrerpersonen sehr herausfordernd, Schüler*innen zu unterrichten, die noch keinen Therapieplatz erhalten haben.» Eine solche Situation könne die Dynamik innerhalb einer ganzen Klasse negativ beeinflussen. Expert*innen sind sich einig: Die Zahl der Kinder und Jugendlichen mit psychischen Schwierigkeiten ist in den letzten Jahren weiter angestiegen. Auf die Frage nach den Gründen fällt die Antwort komplexer aus. " +
                 "Die Vermutung, dass vor allem die Coronapandemie die Situation verschärft hat, reicht als Begründung nicht aus. «Wir beobachten diese Entwicklung schon seit einigen Jahren», sagt Matthias Obrist. «Corona allein war nicht der Auslöser.» Martina Buchli meint dazu: «Diese Entwicklung ist kein neues Phänomen.» Der Selektionsdruck, dem die Kinder und Jugendlichen bereits in jungen Jahren ausgesetzt würden, sei schon vor Corona allgegenwärtig gewesen. " +
                 "«Es gibt heute kaum einen Lebensbereich, in dem es nicht um Leistung geht», so Buchli. Corona hat die Gesellschaft aber stärker für das Thema psychische Gesundheit sensibilisiert, davon sind die Expert*innen überzeugt. Dass sich die Kinder und Jugendlichen stärker belastet fühlen, führt Matthias Obrist nicht zuletzt auf die neue Gemengelage zurück – innere Faktoren wie Stress, Individualisierung, Selbstoptimierung sowie äussere Faktoren wie Kriege, Flucht oder Klimawandel. " +
                 "Das Gefühl der Sicherheit habe stark gelitten, die Verletzbarkeit sei grösser geworden. In diesem Zusammenhang wird oft der Begriff Polykrise genannt. Diese könne einen Einfluss auf junge Menschen haben, glaubt auch Kinderpsychologin Marina Frigerio. Die Bilder aus dem Ukrainekrieg, dem Nahen Osten und der Klimakrise gingen nicht spurlos an ihnen vorbei. «Ich habe Jugendliche erlebt, bei denen diese Themen Angststörungen und Panikattacken ausgelöst haben», sagt sie. " +
@@ -171,22 +170,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-    // returns number of commas still missing,
+    // gibt die Anzahl fehlender Kommas zurück
     function checkText() {
         const userInput = textArea.value
         const totalCommas = correctText.split("").filter(c => c === ",").length
         const userCommas = userInput.split("").filter(c => c === ",").length;
         console.log(userCommas);
     }
-
-
-
-
-
-
-
-
-
 
 
     function checkSentence() {
@@ -199,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (userInput === correctText) {
             textArea.style.border = "2px solid green";
             feedback.style.color = "green";
-            feedback.textContent = "✅ Alles korrekt! Super gemacht!";
+            feedback.textContent = " Alles korrekt! Super gemacht!";
             return true;
         }
 
@@ -207,16 +197,15 @@ document.addEventListener("DOMContentLoaded", function () {
         feedback.style.color = "red";
 
         if (missingCommas > 0 && extraCommas > 0) {
-            feedback.textContent = `❌ Du hast ${extraCommas} Komma(s) zu viel und es fehlen noch ${missingCommas} Komma(s). Versuche es nochmal!`;
+            feedback.textContent = ` Du hast ${extraCommas} Komma(s) zu viel und es fehlen noch ${missingCommas} Komma(s). Versuche es nochmal!`;
         } else if (missingCommas > 0) {
-            feedback.textContent = `❌ Es fehlen noch ${missingCommas} Komma(s). Versuch es nochmal!`;
+            feedback.textContent = ` Es fehlen noch ${missingCommas} Komma(s). Versuch es nochmal!`;
         } else if (extraCommas > 0) {
-            feedback.textContent = `❌ Du hast ${extraCommas} Komma(s) zu viel. Versuch es nochmal!`;
+            feedback.textContent = ` Du hast ${extraCommas} Komma(s) zu viel. Versuch es nochmal!`;
         }
 
         return false;
     }
-
     checkButton.addEventListener("click", function () {
         checkText()
 
@@ -235,7 +224,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     solutionButton.addEventListener("click", function () {
-        feedback.innerHTML = `✅ Hier ist die richtige Lösung:<br><b>${correctText}</b>`;
+        feedback.innerHTML = `✅ Hier ist die richtige Lösung:<br><b>${correctText.replace(/,/g, '<span style="color: red;">,</span>')}</b>`;
         feedback.style.color = "green";
         textArea.style.border = "2px solid green";
         solutionButton.style.display = "none";
@@ -280,5 +269,6 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem("attempts", attempts);
         localStorage.setItem("taskId", taskId);
         window.location.href = "auswertung.html";
+
     });
 });

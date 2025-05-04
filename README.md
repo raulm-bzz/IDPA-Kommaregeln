@@ -19,8 +19,7 @@ frontend/
 │
 ├── account.html                
 ├── admin.html
-├── auswertung.html           
-├── ergebnis.html                
+├── auswertung.html                         
 ├── header.html                  
 ├── index.html                   
 ├── login.html
